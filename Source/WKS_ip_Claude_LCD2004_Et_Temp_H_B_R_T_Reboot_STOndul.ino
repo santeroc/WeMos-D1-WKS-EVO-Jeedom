@@ -20,7 +20,7 @@
   static const String monPass = "MON-PASSWORD-WIFI";
   static const String HostName = "WeMos_UPS";
 
-  static const String WeMos_UPS_Version = "7.6";
+  static const String WeMos_UPS_Version = "7.8";
 
   //Paramètres NTP...
   //  String months[12]={"Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Decembre"};
@@ -345,7 +345,7 @@ void ReadNTPTime() {
       crc_out = calc_crc(ccmd,CMD.length());
       lo = crc_out & 0xFF;
       hi = crc_out >> 8;
-      CMD = CMD + "\x0D";
+      CMD = CMD + lo + hi + "\x0D"; // CMD = CMD + lo + hi + "\x0D";
       Serial.println("CMD :: "+CMD);
       Serial2.print(CMD);
       Serial2.flush(); 
@@ -382,7 +382,7 @@ void ReadNTPTime() {
         crc_out = calc_crc(ccmd,CMD.length());
         lo = crc_out & 0xFF;
         hi = crc_out >> 8;  
-        CMD = CMD + "\x0D"; // CMD = CMD + lo + hi + "\x0D";
+        CMD = CMD + lo + hi + "\x0D"; // CMD = CMD + lo + hi + "\x0D";
         Serial.println("CMD :: "+CMD);
         Serial2.print(CMD);
         Serial2.flush(); 

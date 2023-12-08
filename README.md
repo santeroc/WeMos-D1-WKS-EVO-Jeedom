@@ -22,7 +22,7 @@ Ceci afin d'appréhender au minimum les risques d'électrocution.
 	-  ``WKS_ip_Claude_LCD2004_Et_Temp_H_B_R_T_Reboot_STOndul.ino`` : Code source Arduino à adapter selon la documentaiton ci-dessus.
 	
 ## Version
-**Dernière version stable :** 7.6
+**Dernière version stable :** 7.8
 
 ## Auteur
 * **Claude Santero** _alias_ [@santeroc](https://github.com/santeroc)
