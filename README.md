@@ -13,7 +13,7 @@ Ceci afin d'appréhender au minimum les risques d'électrocution.
 - **Documentation\\** : Documentation du projet à lire avant de commencer
 	- ``WeMos-D1-WKS-EVO-Jeedom.pdf`` : Document de base nécessaire pour fabriquer le projet et utiliser le code source ci-dessous.
 	- ``Plan_De_Cablage_Electrique.pdf`` : Plan de câblage électrique de la solution.
-	- ``Plan_De_Cablage_Electrique_Element_Positon_Plan.html`` : Composants du plan de câblage avec position sur plan.
+	- ``Plan_De_Cablage_Electrique_Element_Positon_Plan.pdf`` / ``Plan_De_Cablage_Electrique_Element_Positon_Plan.html`` : Composants du plan de câblage avec position sur plan.
 	- ``Manuel-WKS-EVO-FR-2021-2-2 - Avec Mes Paramétres.pdf`` : Manuel du WKS-EVO avec mes paramètres et mes commentaires en couleurs.
 - **Facade-3D\\**     : Façade imprimable en 3D réalisée avec FreeCAD 0.20
 	- ``Facade-v3.FCStd`` : Projet de façade réalisé avec FreeCAD.
